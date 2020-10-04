@@ -27,10 +27,9 @@
                         <div class="ham2"></div>
                         <div class="ham3"></div>
                     </div>
-                    <a href="index.html">About</a>
-                    <a href="ui-ux.html">UI/UX</a>
-                    <a class="current" href="decks.html">Decks</a>
+                    <a href="about.html">About</a>
                     <a href="artworks-digital.html">Artworks</a>
+                    <a class="current" href="other.html">Other</a>
             </div>
             <div class="row">
                 <div class="col-sm-6 title">
@@ -42,7 +41,7 @@
             </div>
             <div class="row headText">
             <div class="col-lg-6">
-                  <p>Pitch Decks</p>
+                  <p>Website layouts and pitch decks</p>
               </div>
             <div class="col-lg-6">
                   <nav class="navbar navbar-expand-lg navbarMain">
@@ -51,20 +50,38 @@
                       </button>
                       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav nav-fill w-100">
-                          <a class="nav-item nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                          <a class="nav-item nav-link" href="ui-ux.html">UI/UX</a>
-                          <a class="nav-item nav-link activeLink" href="decks.html">Decks</a>
+                          <a class="nav-item nav-link" href="about.html">About</a>
                           <a class="nav-item nav-link" href="artworks-digital.html">Artworks</a>
+                          <a class="nav-item nav-link activeLink" href="other.html">Other Works</a>
                         </div>
                       </div>
                   </nav>
               </div>
             </div>
         </div>
+        
+<!-- ############ pictures #################  -->
        <div class="row">
-           <div class="col-md-6">
+           <div class="col-md-2"></div>
+           <div class="col-md-8"><div class="uiContainer">
+               <img id="u1" onclick="displayModal('u1')" src="pic/ui/foodBlog.jpg">
+           </div></div>
+           
+           <div class="col-md-2"></div>
+        </div>
+        <div id="myModal" class="modal scroll">
+            <span class="close">&times;</span>
+            <img class="modal-content scroll" id="modal-display">
+            <div id="captionID"></div>
+        </div>
+        <hr>
+        
+               <div class="row">
+                   <div class="col-md-2"></div>
+           <div class="col-md-8">
                <p>My values align with the vision for EDeeU, a startup company in Berkeley. EDeeU is bringing world class education to individuals without the strictures of University regulations. It cultivates learning in a positive way that is often lost in modern society. I worked directly with the CEO to create digital marketing materials, connect with potential investors at networking events, and create pitch decks for fundraising.</p>
            </div>
+                   <div class="col-md-2"></div>
         </div>
         
 <!-- ############ Decks #################  -->
@@ -138,6 +155,7 @@
                 </div>
            </div>
         </div>
+        
         <div class="row footer">
             <div class="col-md-6">
                 <div>
